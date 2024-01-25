@@ -30,10 +30,10 @@ pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu1
 ```bash
 py main.py
 ```
-7. При успешном запуске в консоли будет строка
+7. При использовании ngrok в консоли будет строка
 
 ```bash
-"Uvicorn running on $address"
+"Ingress established at $address"
 ```
 Таким образом, server_url в настройках плагина в Moodle будет $address/picture/generate
 8. Все готово к использованию. Можно добавить ресурс в moodle и при использовании редактора Atto появится кнопка плагина. Выделите текст и нажмите на кнопку. Как только картинка сгенерируется, она будет добавлена в текст. 
