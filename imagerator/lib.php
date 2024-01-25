@@ -4,7 +4,7 @@ defined('MOODLE_INTERNAL') || die();
 function atto_imagerator_strings_for_js() {
     global $PAGE;
 
-    $PAGE->requires->strings_for_js(array('server_url', 'width', 'height', 'steps'), 'atto_helloconsole');
+    $PAGE->requires->strings_for_js(array('server_url', 'width', 'height', 'steps'), 'atto_imagerator');
 }
 
 function atto_imagerator_params_for_js($elementid, $options, $fpoptions) {
