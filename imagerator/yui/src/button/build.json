@@ -1,0 +1,11 @@
+{
+  "name": "moodle-atto_imagerator-button",
+  "builds": {
+    "moodle-atto_imagerator-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}
+

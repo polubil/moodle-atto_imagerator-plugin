@@ -1,0 +1,10 @@
+### Generate Picture Test
+POST http://localhost:8000/picture/generate
+Content-Type: application/json
+
+{
+  "prompt": "a red car",  # Example text in Russian
+  "width": 512,
+  "height": 512,
+  "steps": 50
+}
